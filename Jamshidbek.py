@@ -1,0 +1,1 @@
+print("Jamshidbek birinchi kodini yuklayapti o'zgarishga")
