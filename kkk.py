@@ -1,4 +1,4 @@
-print("Amrillo va Jamshidbek bugun darsda yo'q")
+print("JJJJJJJJJJJJJJJJJ")
 print("Hello World")
 print("Jamshidbek Shodibekov")
 
