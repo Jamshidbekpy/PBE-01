@@ -1,8 +1,8 @@
-print("JJJJJJJJJJJJJJJJJ")
+print("dnwkndkwnnewncewnc")
 print("Hello World")
 print("Jamshidbek Shodibekov")
 
-print("This is my first program")
+print("dwjdnwkjndnwndwewndn")
 
 
 def add(num1, num2):
