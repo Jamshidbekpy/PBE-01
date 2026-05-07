@@ -1,0 +1,1 @@
+print("Amrillo va Jamshidbek bugun darsda yo'q")
