@@ -129,3 +129,26 @@
 
 # print(dog1)
 # print(cat1)
+
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self._salary = salary  # protected
+
+#     def display_salary(self):
+#         print(f"Salary: {self._salary}")
+
+
+# class Manager(Employee):
+#     def __init__(self, name, salary, department):
+#         super().__init__(name, salary)
+#         self._department = department
+
+#     def show_info(self):
+#         print(f"Manager: {self.name}")
+#         print(f"Department: {self._department}")
+#         print(f"Salary: {self._salary}")  # protected atributdan foydalanish
+
+
+# m = Manager("John", 5000, "HR")
+# m.show_info()
