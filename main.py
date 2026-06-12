@@ -24,3 +24,33 @@
 
 # os.mkdir("myfolder")
 
+
+# # data1 = {}
+
+# # import json
+
+# # with open('myfile.json', 'r') as file:
+# #     data = json.load(file)
+# #     print(type(data), data)
+# #     data["name"] = "Hosbhshbhs"
+# #     data1 = data.copy()
+    
+# # with open('myfile.json', 'w') as file:
+# #     json.dump(data, file)
+    
+    
+# import re
+
+# matn = "Bizning operatorlar:  +998919876543 va +998912345678 bilan ishlaydi."
+# andoza = r"\+998\d{9}"
+
+# # natija = re.findall(andoza, matn)
+# # print(natija) 
+# # # Natija: ['+998901234567', '+998919876543']
+
+
+# moslik = re.search(andoza, matn)
+# if moslik:
+#     print("Raqam topildi:", moslik.group()) # Natija: +998935554433
+# else:
+#     print("Raqam topilmadi")
