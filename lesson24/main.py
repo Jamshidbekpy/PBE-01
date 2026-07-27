@@ -33,3 +33,33 @@ from datetime import datetime
 # print(floor(3.7))
 # print(sqrt(16))
 
+n = int(input("n: "))
+if n % 2 == 1:
+    n -= 1 
+for i in range(n):
+   if i >= n//2:
+        if n % 4 == 0 and (i-n//2)+(i-n//2+1)>=(n-2)//2-1:
+            print((n-1-i)*" ", end="")   
+            print((i-n//2)*"*", end='')
+            print((i-n//2+1)*"*", end="")
+            
+            print(((n-1-i)*2+1)*" ", end="")   
+            print((i-n//2)*"*", end='')
+            print((i-n//2+1)*"*", end="")
+            print()
+        elif n % 2 == 0 and (i-n//2)+(i-n//2+1)>=(n-2)//2:
+            print((n-1-i)*" ", end="")   
+            print((i-n//2)*"*", end='')
+            print((i-n//2+1)*"*", end="")
+            
+            print(((n-1-i)*2+1)*" ", end="")   
+            print((i-n//2)*"*", end='')
+            print((i-n//2+1)*"*", end="")
+            print()
+          
+for i in range(n, 0, -1):
+    print((n - i) * " ", end="")
+    for j in range(i):
+        print("*", end="") 
+    print((i - 1) * "*", end="")
+    print()
