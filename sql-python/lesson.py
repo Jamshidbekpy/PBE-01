@@ -68,6 +68,7 @@ def get_connection():
     
 #     try:
 #         table_name = "table2"
+
 #         cursor.execute(
 #             f"CREATE TABLE {table_name} (" \
 #             "employee_id INT PRIMARY KEY," \
